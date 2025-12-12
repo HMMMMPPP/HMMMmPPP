@@ -41,30 +41,7 @@
         <a href="https://github.com/HMMMMPPP/proposal-studio"><strong>[ ACCESS FILE ]</strong></a>
       </div>
     </td>
-    
-    <td width="50%" valign="top">
-      <h3 align="center">📂 COMPLIANCE SENTINEL</h3>
-      <div align="center">
-        <img src="https://img.shields.io/badge/CLEARANCE-INTERNAL-orange?style=flat-square" />
-        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-blue?style=flat-square" />
-      </div>
-      <br/>
-      > <strong>"The 24/7 Auditor."</strong><br/>
-      > Automated pipeline ensuring zero-defect legal documents. Audits 500+ contracts in < 2 mins.
-      <br/><br/>
-      <div align="center">
-        <img src="https://img.shields.io/badge/Python_3.14-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/PDF_Parsing-333333?style=flat-square" />
-      </div>
-      <br/>
-      <div align="center">
-        <a href="https://github.com/HMMMMPPP/compliance-sentinel"><strong>[ ACCESS FILE ]</strong></a>
-      </div>
-    </td>
-  </tr>
 
-  <!-- ROW 2 -->
-  <tr>
     <td width="50%" valign="top">
       <h3 align="center">📂 INTERACTIVE HUB</h3>
       <div align="center">
@@ -82,6 +59,29 @@
       <br/>
       <div align="center">
         <a href="https://github.com/HMMMMPPP/personal-website"><strong>[ ACCESS FILE ]</strong></a>
+      </div>
+    </td>
+  </tr>
+
+  <!-- ROW 2 -->
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">📂 COMPLIANCE SENTINEL</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/CLEARANCE-INTERNAL-orange?style=flat-square" />
+        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-blue?style=flat-square" />
+      </div>
+      <br/>
+      > <strong>"The 24/7 Auditor."</strong><br/>
+      > Automated pipeline ensuring zero-defect legal documents. Audits 500+ contracts in < 2 mins.
+      <br/><br/>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Python_3.14-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/PDF_Parsing-333333?style=flat-square" />
+      </div>
+      <br/>
+      <div align="center">
+        <a href="https://github.com/HMMMMPPP/compliance-sentinel"><strong>[ ACCESS FILE ]</strong></a>
       </div>
     </td>
 
