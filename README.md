@@ -4,15 +4,6 @@
 
 <br/>
 
-<!-- 3D Trophies: Updates automatically based on your repo stats -->
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=HMMMMPPP&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=4" alt="HMMMMPPP Trophies" />
-  </a>
-</div>
-
-<br/>
-
 <!-- Activity Graph: Real-time commit history wave -->
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=HMMMMPPP&bg_color=0d1117&color=2DD4BF&line=2DD4BF&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Activity Graph" />
