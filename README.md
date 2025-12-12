@@ -41,7 +41,6 @@
         <a href="https://github.com/HMMMMPPP/proposal-studio"><strong>[ ACCESS FILE ]</strong></a>
       </div>
     </td>
-
     <td width="50%" valign="top">
       <h3 align="center">📂 INTERACTIVE HUB</h3>
       <div align="center">
@@ -84,7 +83,6 @@
         <a href="https://github.com/HMMMMPPP/compliance-sentinel"><strong>[ ACCESS FILE ]</strong></a>
       </div>
     </td>
-
     <td width="50%" valign="top">
       <h3 align="center">📂 AUTOMATION PROTOCOLS</h3>
       <div align="center">
