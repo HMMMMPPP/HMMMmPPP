@@ -1,0 +1,41 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .text { font-family: 'Segoe UI', sans-serif; fill: #2DD4BF; font-size: 12px; font-weight: bold; }
+      .grid { stroke: #333; stroke-width: 1; fill: none; }
+      .radar { fill: rgba(45, 212, 191, 0.2); stroke: #2DD4BF; stroke-width: 2; }
+      .point { fill: #2DD4BF; }
+    </style>
+  </defs>
+  
+  <!-- Background Grid (Pentagon) -->
+  <g transform="translate(200, 150)">
+    <polygon points="0,-100 95,-31 59,81 -59,81 -95,-31" class="grid" /> <!-- 100% -->
+    <polygon points="0,-75 71,-23 44,61 -44,61 -71,-23" class="grid" opacity="0.5" /> <!-- 75% -->
+    <polygon points="0,-50 47,-15 29,40 -29,40 -47,-15" class="grid" opacity="0.3" /> <!-- 50% -->
+    
+    <!-- Radar Data -->
+    <!-- 
+      Top: Frontend (95%) -> (0, -95)
+      Right: AI (90%) -> (85, -28)
+      Bottom Right: Backend (85%) -> (50, 69)
+      Bottom Left: Auto (80%) -> (-47, 65)
+      Left: Infra (75%) -> (-71, -23)
+    -->
+    <polygon points="0,-95 85,-28 50,69 -47,65 -71,-23" class="radar" />
+    
+    <!-- Data Points -->
+    <circle cx="0" cy="-95" r="3" class="point" />
+    <circle cx="85" cy="-28" r="3" class="point" />
+    <circle cx="50" cy="69" r="3" class="point" />
+    <circle cx="-47" cy="65" r="3" class="point" />
+    <circle cx="-71" cy="-23" r="3" class="point" />
+  </g>
+  
+  <!-- Labels -->
+  <text x="200" y="30" text-anchor="middle" class="text">FRONTEND</text>
+  <text x="330" y="110" text-anchor="middle" class="text">AI / AGENTS</text>
+  <text x="280" y="250" text-anchor="middle" class="text">BACKEND</text>
+  <text x="120" y="250" text-anchor="middle" class="text">AUTOMATION</text>
+  <text x="70" y="110" text-anchor="middle" class="text">INFRA</text>
+</svg>
