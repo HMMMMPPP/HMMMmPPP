@@ -1,16 +1,91 @@
-## Hi there 👋
+<div align="center">
+  <img src="./assets/header.svg" width="100%" alt="HMMMMPPP Header" />
+</div>
 
-<!--
-**HMMMMPPP/HMMMmPPP** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br/>
 
-Here are some ideas to get you started:
+<div align="center">
+  <img src="./assets/terminal-card.svg" width="48%" alt="Terminal Bio" />
+  <img src="./assets/skills-radar.svg" width="48%" alt="Skills Radar" />
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+---
+
+## 📂 Classified Projects
+
+<br/>
+
+### 1. [PROPOSAL STUDIO](https://github.com/HMMMMPPP/proposal-studio)
+> **Clearance Level**: TOP SECRET // **Status**: DEPLOYED
+>
+> "The War Room for Proposals." An autonomous agentic system that drafts, critiques, and refines winning proposals for freelancers.
+
+- **Architecture**: Multi-Agent System (Strategist → Ghostwriter → Critic)
+- **Tech**: Next.js 16, Vercel AI SDK, Groq (Llama 3.3), Google Gemini 2.5
+- **Key Feature**: Real-time streaming of agent thoughts and "War Room" collaboration.
+
+```mermaid
+graph LR
+    User([User Request]) --> Action[War Room Action]
+    subgraph Agentic Loop
+        Action --> Strat[Strategist Agent]
+        Strat -- "Plan" --> Ghost[Ghostwriter Agent]
+        Ghost -- "Draft" --> Critic[Critic Agent]
+        Critic -- "Feedback" --> Refine{Pass Criteria?}
+        Refine -- "No" --> Ghost
+    end
+    Refine -- "Yes" --> Final([Final Proposal])
+    style User fill:#fff,stroke:#333,stroke-width:2px
+    style Action fill:#00C7B7,stroke:#333,stroke-width:0px,color:#fff
+    style Final fill:#2DD4BF,stroke:#333,stroke-width:0px,color:#fff
+```
+
+<br/>
+
+### 2. [COMPLIANCE SENTINEL](https://github.com/HMMMMPPP/compliance-sentinel)
+> **Clearance Level**: INTERNAL // **Status**: OPERATIONAL
+>
+> "The 24/7 Auditor." Automated pipeline ensuring zero-defect legal documents.
+
+- **Performance**: Audits 500+ contracts in < 2 minutes.
+- **Tech**: Python 3.14, Regex Patterns, PDF Parsing Automation.
+
+<br/>
+
+### 3. [INTERACTIVE SYSTEM](https://github.com/HMMMMPPP/personal-website)
+> **Clearance Level**: PUBLIC // **Status**: ONLINE
+>
+> A 3D immersive web experience acting as the central hub.
+
+- **Tech**: React Three Fiber, Vite, TailwindCSS v4.
+- **Experience**: Holographic interface with dynamic content loading.
+
+<br/>
+
+### 4. [AUTOMATION PROTOCOLS](https://github.com/HMMMMPPP/n8n-workflows)
+> **Clearance Level**: RESTRICTED // **Status**: RUNNING
+>
+> "The Nervous System." Collection of n8n automation workflows for data piping and integrations.
+
+<br/>
+
+### 5. [INTELLIGENCE DATABASE](https://github.com/HMMMMPPP/public-apis)
+> **Clearance Level**: PUBLIC // **Status**: INDEXED
+>
+> "The Knowledge Base." A curated list of public APIs for building connected systems.
+
+---
+
+## 📊 Live Telemetry
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=HMMMMPPP&show_icons=true&theme=transparent&hide_border=true&title_color=2DD4BF&text_color=999&icon_color=2DD4BF" alt="Github Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HMMMMPPP&layout=compact&theme=transparent&hide_border=true&title_color=2DD4BF&text_color=999" alt="Top Langs" />
+</div>
+
+<div align="center"> 
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:your.email@example.com" target="_blank"><img src="https://img.shields.io/badge/EMAIL-TRANSMIT-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</div>
