@@ -92,7 +92,7 @@ graph LR
 ## 📊 Live Telemetry
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HMMMMPPP&show_icons=true&theme=transparent&hide_border=true&title_color=2DD4BF&text_color=999&icon_color=2DD4BF" alt="Github Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=HMMMMPPP&show_icons=true&theme=transparent&hide_border=true&title_color=2DD4BF&text_color=999&icon_color=2DD4BF&count_private=true&include_all_commits=true" alt="Github Stats" />
 </div>
 
 <div align="center">
